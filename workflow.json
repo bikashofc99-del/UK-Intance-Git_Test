@@ -1,0 +1,44 @@
+{
+  "connections": {
+    "Trigger": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "AI Agent",
+            "type": "main"
+          }
+        ]
+      ]
+    }
+  },
+  "name": "SuperFlow_1",
+  "nodes": [
+    {
+      "id": "edba2410-9e08-4ffa-a381-b492e231d051",
+      "name": "Trigger",
+      "parameters": {
+        "inputSchema": [],
+        "webhookSecret": "00133301466ff5cc37872faef779c8b72acbd1bb8ea8243c53cd15de43ff929b"
+      },
+      "position": [
+        -118.60213431333776,
+        354.216005651013
+      ],
+      "type": "lyzr-nodes-base.trigger"
+    },
+    {
+      "id": "41f3f620-217a-4bdf-955b-683b5b7a4c27",
+      "name": "AI Agent",
+      "parameters": {
+        "agent_id": "6af1840afc36e9b9d70ca1a6",
+        "agent_name": "General Agent"
+      },
+      "position": [
+        201.39786568666224,
+        354.216005651013
+      ],
+      "type": "lyzr-nodes-base.lyzr.agent"
+    }
+  ]
+}
