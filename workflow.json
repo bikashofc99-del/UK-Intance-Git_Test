@@ -1,5 +1,16 @@
 {
   "connections": {
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "AI Agent 1",
+            "type": "main"
+          }
+        ]
+      ]
+    },
     "Trigger": {
       "main": [
         [
@@ -36,6 +47,19 @@
       },
       "position": [
         201.39786568666224,
+        354.216005651013
+      ],
+      "type": "lyzr-nodes-base.lyzr.agent"
+    },
+    {
+      "id": "7f6eb6c7-39bf-4ad5-9175-5e696f0fae46",
+      "name": "AI Agent 1",
+      "parameters": {
+        "agent_id": "6af1843a8f44b5c957d285c5",
+        "agent_name": "Agent Sam"
+      },
+      "position": [
+        521.3978656866623,
         354.216005651013
       ],
       "type": "lyzr-nodes-base.lyzr.agent"
